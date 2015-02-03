@@ -1,0 +1,97 @@
+html {
+   padding: 0;
+   margin: 0;
+   background-color: #ffffff;
+   font-family: Verdana, Helvetica, sans-serif;
+}
+body {
+   padding: 0;
+   margin: 0;
+}
+a {
+   text-decoration: underline;
+}
+a :hover {
+   cursor: pointer;
+   text-decoration: underline;
+}
+img {
+   border: none;
+}
+#content {
+   padding-left: 1em;
+}
+#info {
+   font-size: 60%;
+}
+
+table.calendar{
+border: 1px solid #999;
+border-collapse: collapse;
+font-family: Georgia, Times, serif;
+}
+.calendar th {
+border: 1px solid #999;
+font-size: 70%;
+text-transform: uppercase;
+}
+.calendar td {
+border: 1px solid #999;
+height: 5em;
+width:5em;
+padding: 5px;
+vertical-align: top;
+}
+.calendar caption {
+font-size: 300%;
+}
+.calendar td {
+text-align: right;
+}
+
+table.minicalendar{
+border: 1px solid #999;
+border-collapse: collapse;
+font-family: Georgia, Times, serif;
+}
+.minicalendar th {
+border: 1px solid #999;
+font-size: 70%;
+text-transform: uppercase;
+}
+.minicalendar td {
+border: 1px solid #999;
+height: 1em;
+width:1em;
+padding: 5px;
+vertical-align: top;
+}
+.minicalendar caption {
+font-size: 300%;
+}
+.minicalendar td {
+text-align: right;
+}
+
+
+
+.notes {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 80%;
+text-align: right;
+padding-left: 20px;
+}
+.selected {
+background-color: #5292FF;
+}
+.nonmonth {
+background-color: #B5B5B5;
+}
+.weekend {
+background-color: #F3F3F3;
+}
+
+.centered{
+    margin: 0 auto;
+    float: none;
+}
